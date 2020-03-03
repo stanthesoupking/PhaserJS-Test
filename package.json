@@ -1,0 +1,19 @@
+{
+  "name": "phaser-test",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Stanley Fuller",
+  "license": "MIT",
+  "scripts": {
+    "compile": "webpack",
+    "serve": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "phaser": "^3.22.0"
+  }
+}
